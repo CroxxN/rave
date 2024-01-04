@@ -1,1 +1,17 @@
-404: Not Found
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.bypass.mobileactivationd</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/chmod</string>
+        <string>755</string>
+        <string>/usr/libexec/mobileactivationd</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
+
