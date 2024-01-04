@@ -18,7 +18,6 @@ echo "Downloading plist files..."
 url=https://raw.githubusercontent.com/CroxxN/rave/main/com.bypass.mobileactivationd.plist
 wget "${url}"
 
-# exit 0 # IMPORTANT: Remove this line
 
 echo "Mounting root partition"
 sshpass -p 'alpine' ssh -o StrictHostKeyChecking=no -p 4444 "root@localhost" 'mount -o rw,union,update /'
